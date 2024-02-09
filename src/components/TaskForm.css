@@ -1,0 +1,35 @@
+.TaskForm {
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+}
+
+.TaskForm label,
+input,
+button {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 14pt;
+  margin: 2pt;
+}
+
+.TaskForm button {
+  display: block;
+  margin: 10px auto;
+  padding: 0 10px;
+  border-radius: 20px;
+  background-color: peachpuff;
+  color: black;
+}
+
+.TaskForm div {
+  text-align: center;
+  color: red;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16pt;
+}
+.date-format-success {
+  display: none;
+}
+.date-format-error {
+  display: block;
+}
